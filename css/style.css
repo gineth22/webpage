@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 40px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 8px 16px 0 #00000041;
+}
+
+.titulo{
+    font-size: 25px;
+    color: rgb(20, 0, 199);
+}
+
+.categoria{
+    font-size: 13px;
+    margin-left: 30%;
+    margin-top: 20px;
+
+}
+
+
+.categoria a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 15%;
+}
+
+.categoria a > h2:hover {
+    color: rgb(0, 12, 175);
+    transition-duration: 0.5s;
+}
+
+.menu {
+    margin-left: 15%;
+    margin-top: 17px;
+    text-decoration: none;
+}
+
+.menu i:hover {
+    color: rgb(0, 16, 163);
+}
+
+.menu > a > i {
+    font-size:35px;
+    color: black;
+}
+
+section {
+    margin-top: 7%;
+}
+
+.cont1 {
+    display: flex;
+}
+
+.contenedor {
+    display: flex;
+}
+
+
+.imagen > img {
+    height: 450px;
+    width: 450px;
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+.imagen > h2 {
+    text-align:center;
+    margin-left: 50%;
+    margin-top: 8%;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagen1{
+    margin-left: 25%;
+    margin-top: 3%;
+    height: 410px;
+    width: 290px;
+}
+
+.imagen1 > h2 {
+    text-align: center;
+    margin-top: 9%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagen1 > p {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.imagen1 > img {
+    margin-top: 7%;
+    height: 260px;
+    width: 290px;
+}
+
+.imagen2 {
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 410px;
+    width: 290px;
+}
+
+.imagen2 > h2{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagen2 > p {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.imagen2 > img {
+    height: 280px;
+    width: 300px;
+}
+
+.imagen3{
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 410px;
+    width: 290px;
+    text-align: center;
+}
+
+.imagen3 > h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+
+.imagen3 > img {
+    height: 290px;
+    width: 290px;
+}
+
+.imagen1:hover {
+    box-shadow: 0 8px 16px 0 #00000041;
+    border-radius: 5%;
+}
+
+.imagen2:hover {
+    box-shadow: 0 8px 16px 0 #00000041;
+    border-radius: 5%;
+}
+
+.imagen3:hover {
+    box-shadow: 0 8px 16px 0 #00000041;
+    border-radius: 5%;
+}
+
+.imagen4:hover {
+    box-shadow: 0 8px 16px 0 #00000041;
+    border-radius: 5%;
+}
+
+.imagen > h2:hover {
+    background-color: rgb(0, 84, 180);
+    color: white;
+    border-radius: 7%;
+    padding: 6px 10px;
+    transition-duration: 0.5s;
+}
